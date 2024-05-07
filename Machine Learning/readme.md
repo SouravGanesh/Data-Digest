@@ -14,4 +14,5 @@
 
 𝟴. 𝗚𝗿𝗮𝗱𝗶𝗲𝗻𝘁 𝗕𝗼𝗼𝘀𝘁𝗶𝗻𝗴 𝗠𝗮𝗰𝗵𝗶𝗻𝗲𝘀 (𝗚𝗕𝗠): This is like a smart assembly line, where each new machine corrects the mistakes of the previous one to improve results.
 
-![ML](Machine Learning/images/ml_cheeetsheet.png)
+![ML Cheetsheet](Machine Learning/images/ml_cheeetsheet.png)
+
