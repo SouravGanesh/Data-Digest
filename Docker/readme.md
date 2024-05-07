@@ -3,11 +3,17 @@
 As Docker continues to grow in popularity, it's important for developers and ops engineers to know the key Docker commands. 
 
 This cheat sheet focuses on commands for:
+
 • Images - docker build, pull, push
+
 • Containers - docker run, start, stop, restart, logs
+
 • Networks - docker network create, connect
+
 • Volumes - docker volume create
+
 • Services - docker service create, logs
+
 • Cleanup - docker system prune
 
 With these Docker commands, you'll be able to:
