@@ -64,4 +64,4 @@ git tag -a v1.0 -m "tag": Creates a new tag for a specific commit.
 git config --global user. name "name": Sets your global Git username.
 git config --global user. email "email": Sets your global Git email.
 
-![img](https://github.com/SouravGanesh/Data-Digest/blob/672dd0231f7adcfa2c641d50a84f961b5b08a4a9/images/git2.gif)
+![img](https://github.com/SouravGanesh/Data-Digest/blob/9dac2971247ccd3bf90be9e69184d4f87770538a/images/git2.png)
