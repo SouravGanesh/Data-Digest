@@ -3,7 +3,7 @@
 If you're into data engineering, knowing these terms will help you work with data storage, moving data around, and making sense of it all.
 
 ⚙ 𝗗𝗮𝘁𝗮 𝗣𝗶𝗽𝗲𝗹𝗶𝗻𝗲: An automated process that moves and prepares data.
-💾 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲: An organized collection of data for easy access.
+💾 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲 [Link to Section 2](#𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲): An organized collection of data for easy access.
 
 📋 𝗦𝗰𝗵𝗲𝗺𝗮: The blueprint defining a database's structure.
 💡 𝗧𝗮𝗯𝗹𝗲: A structured grid containing related data points.
@@ -53,6 +53,31 @@ This includes executing complex aggregations with window functions, breaking dow
 - Gain expertise in generating logs for monitoring code execution and incorporate logging into databases like PostgreSQL. Learn to trigger alerts for failed runs.
 
 - Familiarize yourself with scheduling Python DAGs using cron expressions.
+
+
+<a name="Database"></a>
+## Database
+1. 𝗦𝗽𝗮𝘁𝗶𝗮𝗹 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀: Handle spatial data, perfect for applications involving maps, GIS, and location-based services. Ideal for navigating a world of coordinates!
+
+2. 𝗜𝗻-𝗠𝗲𝗺𝗼𝗿𝘆 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀: Lightning-fast data retrieval by storing everything in RAM. Perfect for applications where speed is of the essence.
+
+3. 𝗗𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝘁𝗲𝗱 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀: Spread your data across multiple servers, ensuring scalability, fault tolerance, and improved performance in a distributed environment.
+
+4. 𝗥𝗲𝗹𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀: Classic and structured, these databases use tables to organize and link data, adhering to the principles of relational algebra. Think SQL databases!
+
+5. 𝗚𝗿𝗮𝗽𝗵 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀: Unravel complex relationships in data through nodes and edges, making them perfect for social networks, fraud detection, and network analysis.
+
+6. 𝗧𝗶𝗺𝗲-𝗦𝗲𝗿𝗶𝗲𝘀 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀: Tailored for managing time-stamped data, crucial for applications involving IoT, financial trading, and system monitoring.
+
+7. 𝗢𝗯𝗷𝗲𝗰𝘁-𝗢𝗿𝗶𝗲𝗻𝘁𝗲𝗱 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀: Like Relational Databases, but they store data in objects, mirroring real-world entities. Perfect for systems where data is naturally object-oriented.
+
+8. 𝗡𝗼𝗦𝗤𝗟 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀: Perfect for unstructured or semi-structured data, allowing you to manage a variety of data types efficiently. They offer horizontal scalability, high availability, and flexibility in schema design.
+
+9. 𝗩𝗲𝗰𝘁𝗼𝗿 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀: Harness the power of vectors to handle complex mathematical computations efficiently, ideal for applications like machine learning and data analytics.
+
+Understanding their differences is not just about knowledge, it's about making informed decisions for efficient and effective data handling.
+
+![Cheetsheet](https://github.com/SouravGanesh/Data-Digest/blob/fa777e859028b70d88e16a224670ea8d6811eecb/images/database.png)
 
 
 
@@ -143,28 +168,6 @@ Databricks shines for ETL, machine learning, and real-time analytics. Snowflake 
 Databricks and Snowflake both deliver robust analytics capabilities through different approaches. Understanding their respective strengths and aligning them to your use cases is key to choosing the right platform. Evaluating your requirements and data infrastructure will determine which solution fits best. With clear goals, you can leverage these technologies for impactful data insights!
 
 ![Cheetsheet](https://github.com/SouravGanesh/Data-Digest/blob/e874d49ddc0685dc7755ccc8a2fb0991286d0d8e/images/data_db%26sf_cheeetsheet.png)
-
-1. 𝗦𝗽𝗮𝘁𝗶𝗮𝗹 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀: Handle spatial data, perfect for applications involving maps, GIS, and location-based services. Ideal for navigating a world of coordinates!
-
-2. 𝗜𝗻-𝗠𝗲𝗺𝗼𝗿𝘆 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀: Lightning-fast data retrieval by storing everything in RAM. Perfect for applications where speed is of the essence.
-
-3. 𝗗𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝘁𝗲𝗱 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀: Spread your data across multiple servers, ensuring scalability, fault tolerance, and improved performance in a distributed environment.
-
-4. 𝗥𝗲𝗹𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀: Classic and structured, these databases use tables to organize and link data, adhering to the principles of relational algebra. Think SQL databases!
-
-5. 𝗚𝗿𝗮𝗽𝗵 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀: Unravel complex relationships in data through nodes and edges, making them perfect for social networks, fraud detection, and network analysis.
-
-6. 𝗧𝗶𝗺𝗲-𝗦𝗲𝗿𝗶𝗲𝘀 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀: Tailored for managing time-stamped data, crucial for applications involving IoT, financial trading, and system monitoring.
-
-7. 𝗢𝗯𝗷𝗲𝗰𝘁-𝗢𝗿𝗶𝗲𝗻𝘁𝗲𝗱 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀: Like Relational Databases, but they store data in objects, mirroring real-world entities. Perfect for systems where data is naturally object-oriented.
-
-8. 𝗡𝗼𝗦𝗤𝗟 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀: Perfect for unstructured or semi-structured data, allowing you to manage a variety of data types efficiently. They offer horizontal scalability, high availability, and flexibility in schema design.
-
-9. 𝗩𝗲𝗰𝘁𝗼𝗿 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀: Harness the power of vectors to handle complex mathematical computations efficiently, ideal for applications like machine learning and data analytics.
-
-Understanding their differences is not just about knowledge, it's about making informed decisions for efficient and effective data handling.
-
-![Cheetsheet](https://github.com/SouravGanesh/Data-Digest/blob/fa777e859028b70d88e16a224670ea8d6811eecb/images/database.png)
 
 
 The term 'Data Lake' might sound like tech jargon, but let's demystify it.
