@@ -10,6 +10,10 @@ If you're into data engineering, knowing these terms will help you work with dat
 
 💡 𝗧𝗮𝗯𝗹𝗲: A structured grid containing related data points.
 
+schema -> floor plan
+database -> house
+table -> room
+
 [🏠 𝗗𝗮𝘁𝗮 𝗪𝗮𝗿𝗲𝗵𝗼𝘂𝘀𝗲](#dataware): A central hub for integrated data analysis.
 
 ⤵️ 𝗘𝗧𝗟: Extract, Transform, Load - The traditional way to extract, clean, and load data.
