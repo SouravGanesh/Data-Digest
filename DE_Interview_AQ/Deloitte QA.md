@@ -54,3 +54,39 @@ df = pd.read_csv('s3://bucket_name/file.csv')
 # Write Parquet to S3
 df.to_parquet('s3://bucket_name/file.parquet')
 ```
+
+## 10)  Identifying Distinct Records from Database Table
+```
+import psycopg2
+
+# Connect to the database
+conn = psycopg2.connect(database="your_db", user="your_user", password="your_password", host="your_host", port="your_port")
+cur = conn.cursor()
+
+# Execute SQL query to identify distinct records
+cur.execute("SELECT DISTINCT * FROM your_table")
+
+# Fetch and print distinct records
+distinct_records = cur.fetchall()
+print(distinct_records)
+
+# Close the connection
+conn.close()
+```
+
+## 11)   Difference between Union and Join
+-Union: Combines the results of two or more SELECT statements into a single result set.
+-Join: Combines records from two or more tables based on a related column between them.
+
+## 12)   Effect of Union on Columns
+No, the Union operation does not increase the number of columns in the output. It only combines the rows of the result sets.
+
+## 13)   Query to Identify Duplicate Records
+```
+SELECT column1, column2, COUNT(*)
+FROM table_name
+GROUP BY column1, column2
+HAVING COUNT(*) > 1;
+```
+## 14)   Deployment Activities
+Deployment activities are managed using CI/CD pipelines implemented with tools like Jenkins or GitLab CI/CD. The process involves building artifacts, running tests, and deploying to production or staging environments automatically.
