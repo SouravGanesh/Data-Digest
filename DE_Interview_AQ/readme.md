@@ -205,21 +205,87 @@ This README provides answers to frequently asked questions related to Spark, PyS
 
     - **Answer:** Data lakehouse architecture combines the best aspects of data lakes and data warehouses by integrating scalable storage (data lake) with transactional capabilities (data warehouse) in a unified architecture.
 
-### ADF Interview Questions
+### Azure Data Factory (ADF) Interview Questions
+
 
 1. **Integration runtime**
 
-    - **Answer:** Integration runtime in Azure Data Factory (ADF) is the compute infrastructure used by ADF to provide data integration capabilities across different network environments.
+    - **Answer:** Integration runtime in Azure Data Factory (ADF) defines the compute infrastructure used by data factories to provide data integration capabilities across different network environments.
 
 2. **Self hosted IR**
 
-    - **Answer:** Self-hosted integration runtime in Azure Data Factory (ADF) allows you to run data integration tasks on your on-premises infrastructure or virtual machines.
+    - **Answer:** Self-hosted integration runtime in Azure Data Factory allows data movement between a private network and Azure without requiring a virtual network.
 
 3. **On-prem to Cloud Migration**
 
-    - **Answer:** On-prem to cloud migration in Azure Data Factory (ADF) involves moving data and workloads from on-premises systems to cloud-based storage and compute services.
+    - **Answer:** On-premises to cloud migration refers to the process of migrating data and workloads from on-premises infrastructure to cloud-based solutions like Azure.
 
 4. **Schedule Triggers**
 
-    - **Answer:** Schedule triggers in Azure Data Factory (ADF) allow you to schedule and automate the execution of data integration pipelines at specified times or intervals.
+    - **Answer:** Schedule triggers in Azure Data Factory enable you to schedule pipeline execution at specified intervals or times.
+
+5. **Event based Triggers**
+
+    - **Answer:** Event-based triggers in Azure Data Factory allow you to trigger pipeline execution based on events such as file arrival, HTTP request, or message in a queue.
+
+6. **Incremental pipeline**
+
+    - **Answer:** Incremental pipelines in Azure Data Factory are designed to process only the data that has changed since the last pipeline execution, reducing processing time and resources.
+
+7. **Batch Pipeline**
+
+    - **Answer:** Batch pipelines in Azure Data Factory process large volumes of data in batches, typically used for periodic data processing tasks.
+
+8. **Calling one pipeline from other**
+
+    - **Answer:** You can call one pipeline from another pipeline in Azure Data Factory using the "Execute Pipeline" activity.
+
+9. **Dataset parametrization**
+
+    - **Answer:** Dataset parameterization in Azure Data Factory allows you to dynamically change dataset properties at runtime using parameters.
+
+10. **Copy activity**
+
+    - **Answer:** Copy activity in Azure Data Factory enables you to copy data between supported source and sink data stores.
+
+11. **Performance optimization of pipeline**
+
+    - **Answer:** Performance optimization of pipelines in Azure Data Factory involves various techniques such as partitioning, parallelism, and data compression to improve data movement and processing efficiency.
+
+12. **Data flows**
+
+    - **Answer:** Data flows in Azure Data Factory provide a visual interface for building and orchestrating data transformation logic using a code-free approach.
+
+13. **CI/CD of ADF**
+
+    - **Answer:** Continuous integration and continuous deployment (CI/CD) of Azure Data Factory involves automating the deployment process of ADF pipelines using tools like Azure DevOps or GitHub Actions.
+
+14. **Pipeline Monitoring**
+
+    - **Answer:** Pipeline monitoring in Azure Data Factory allows you to monitor the execution and performance of pipelines, track data movement, and detect failures.
+
+15. **Rerun failed pipeline**
+
+    - **Answer:** You can rerun a failed pipeline in Azure Data Factory manually or automatically using triggers or monitoring alerts.
+
+16. **Get metadata activity**
+
+    - **Answer:** Get metadata activity in Azure Data Factory retrieves metadata information about datasets, linked services, or pipelines.
+
+17. **Handling if/for loop**
+
+    - **Answer:** Azure Data Factory provides control flow activities like If Condition and For Each to handle conditional logic and looping in pipelines.
+
+18. **Handle nested loop**
+
+    - **Answer:** Nested loops can be handled in Azure Data Factory by using nested For Each activities or by using expressions to iterate through nested arrays or objects.
+
+19. **Dynamic content manipulation**
+
+    - **Answer:** Dynamic content manipulation in Azure Data Factory involves using expressions to dynamically generate values or modify data within pipelines.
+
+20. **Pipeline Params**
+
+    - **Answer:** Pipeline parameters in Azure Data Factory allow you to pass values dynamically to pipelines at runtime, enabling reusability and flexibility.
+
 
