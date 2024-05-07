@@ -30,7 +30,7 @@ If you're into data engineering, knowing these terms will help you work with dat
 
 🔍 𝗗𝗮𝘁𝗮 𝗤𝘂𝗮𝗹𝗶𝘁𝘆: Ensuring data accuracy, consistency, and reliability.
 
-🕸️ 𝗗𝗮𝘁𝗮 𝗠𝗼𝗱𝗲𝗹𝗶𝗻𝗴: Designing the logical structure and connections of data.
+[🕸️ 𝗗𝗮𝘁𝗮 𝗠𝗼𝗱𝗲𝗹𝗶𝗻𝗴](https://github.com/SouravGanesh/Data-Digest/tree/9dcaf876ca54b29ae0157c4ae1e5e4e9fcc22d49/Data%20Modeling): Designing the logical structure and connections of data.
 
 🌊 𝗗𝗮𝘁𝗮 𝗟𝗮𝗸𝗲𝗵𝗼𝘂𝘀𝗲: Combines the flexibility of a data lake with a data warehouse's structure.
 
