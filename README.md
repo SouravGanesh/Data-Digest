@@ -42,3 +42,18 @@ Data Modeling is the art and science of creating a structured framework to handl
 𝗣𝗶𝗰𝗸 𝗦𝗻𝗼𝘄𝗳𝗹𝗮𝗸𝗲 ❄️: If you're concerned about data storage and normalization.
 
 ![Cheetsheet](images/shema_cheeetsheet.png)
+
+
+𝗗𝗮𝘁𝗮 𝗟𝗮𝗸𝗲 𝘃𝘀 𝗗𝗮𝘁𝗮 𝗪𝗮𝗿𝗲𝗵𝗼𝘂𝘀𝗲: 𝗞𝗲𝘆 𝗗𝗶𝗳𝗳𝗲𝗿𝗲𝗻𝗰𝗲𝘀 👨‍💻
+
+When building a data analytics infrastructure, two technologies often come to mind - data lakes and data warehouses. But when should you choose one over the other? Here's a look at their key differences and strengths:
+
+🌊 𝗗𝗮𝘁𝗮 𝗟𝗮𝗸𝗲𝘀: Flexible Storage and Analytics for Varied Data
+Data lakes can store any type of data, both structured and unstructured, including text, images, video, audio, and more. With this flexibility, data lakes are ideal for machine learning, artificial intelligence, and advanced analytics on large volumes of varied data. Their scalability accommodates huge datasets. Data lakes allow you to store data now and decide how to use it later.
+
+🏠 𝗗𝗮𝘁𝗮 𝗪𝗮𝗿𝗲𝗵𝗼𝘂𝘀𝗲𝘀: Structured and Optimized for BI Workloads
+Data warehouses store structured, optimized data that's been cleaned and processed for downstream analytics. Their relational structure and optimization makes them ideal for predefined workloads like business intelligence, reporting, and dashboards. But data warehouses lack flexibility for unstructured data and can't scale to massive datasets cost-effectively.
+
+Overall, data lakes provide flexibility and scalability for exploratory analytics on varied data, while data warehouses are tailored for structured data and predefined workloads. Assess your use cases, data types and volumes, performance needs, and costs to choose the right technology for your needs.
+
+![Cheetsheet](images/data_l&w_cheeetsheet.png)
