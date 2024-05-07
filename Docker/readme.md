@@ -16,11 +16,17 @@ This cheat sheet focuses on commands for:
 
 • Cleanup - docker system prune
 
+
 With these Docker commands, you'll be able to:
+
 • Build and share container images
+
 • Launch and manage running containers
+
 • Network and persist data with volumes
+
 • Define and scale services across multiple containers
+
 • Clean up unused resources
 
 ![img](https://github.com/SouravGanesh/Data-Digest/blob/caefadb3ba46b20c885cda90a2ddfc06fdf709da/images/docker.png)
