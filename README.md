@@ -1,3 +1,44 @@
+essential areas of focus:
+
+𝗗𝗮𝘁𝗮 𝗜𝗻𝘁𝗲𝗴𝗿𝗮𝘁𝗶𝗼𝗻 𝗧𝗲𝗰𝗵𝗻𝗶𝗾𝘂𝗲𝘀
+
+- 𝗗𝗮𝘁𝗮 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗶𝗼𝗻: Learn both full and incremental data extraction methods.
+
+- 𝗗𝗮𝘁𝗮 𝗟𝗼𝗮𝗱𝗶𝗻𝗴:
+
+ - 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀: Master the techniques of insert-only, insert-update, and comprehensive insert-update-delete operations.
+
+ - 𝗙𝗶𝗹𝗲𝘀: Understand how to replace files or append data within a folder.
+
+
+𝗗𝗮𝘁𝗮 𝗧𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻 𝗦𝘁𝗿𝗮𝘁𝗲𝗴𝗶𝗲𝘀
+
+- 𝗗𝗮𝘁𝗮𝗙𝗿𝗮𝗺𝗲𝘀: Acquire skills in manipulating CSV and Parquet file data with tools like Pandas and Polars.
+
+- 𝗦𝗤𝗟: Enhance your ability to transform data within PostgreSQL databases using SQL. 
+
+This includes executing complex aggregations with window functions, breaking down transformation logic with Common Table Expressions (CTEs), and applying transformations in open-source databases such as PostgreSQL.
+
+
+𝗗𝗮𝘁𝗮 𝗢𝗿𝗰𝗵𝗲𝘀𝘁𝗿𝗮𝘁𝗶𝗼𝗻 𝗙𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗮𝗹𝘀
+
+- Develop the ability to create a Directed Acyclic Graph (DAG) using Python.
+
+- Gain expertise in generating logs for monitoring code execution and incorporate logging into databases like PostgreSQL. Learn to trigger alerts for failed runs.
+
+- Familiarize yourself with scheduling Python DAGs using cron expressions.
+
+
+𝗗𝗲𝗽𝗹𝗼𝘆𝗺𝗲𝗻𝘁 𝗞𝗻𝗼𝘄-𝗛𝗼𝘄
+
+
+- Become proficient in using GIT for code versioning.
+
+- Learn to deploy an ETL pipeline (comprising extraction, loading, transformation, and orchestration) to cloud services like AWS.
+
+- Understand how to dockerize an application for streamlined deployment to cloud platforms such as AWS Elastic Container Service.
+![Cheetsheet](https://github.com/SouravGanesh/Data-Digest/blob/3e10378ed3f23e5500408a76d34e9a1f82b5129c/images/de2.png)
+
 𝗗𝗮𝘁𝗮 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝗧𝗲𝗿𝗺𝘀 𝗬𝗼𝘂 𝗡𝗲𝗲𝗱 𝘁𝗼 𝗞𝗻𝗼𝘄!
 
 If you're into data engineering, knowing these terms will help you work with data storage, moving data around, and making sense of it all.
