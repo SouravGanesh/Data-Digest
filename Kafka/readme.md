@@ -22,3 +22,23 @@ To help you grasp the key concepts of Kafka, I've created a handy diagram that b
 𝗙𝗼𝗹𝗹𝗼𝘄𝗲𝗿 𝗥𝗲𝗽𝗹𝗶𝗰𝗮: Follower replicas are copies of the leader replica for a partition. Their purpose is to provide redundancy and take over as the leader if the current leader fails. They replicate the leader's log but do not serve client requests directly.
 
 ![img](https://github.com/SouravGanesh/Data-Digest/blob/e4b409b2e84fce2ff3ffa185736818fa30e3cc22/images/kafka.gif)
+
+Here are 8 of the most common and impactful use cases to be aware of:
+
+1. Streaming Data - Kafka acts as a central hub to stream data from various sources like databases, apps, and IoT sensors. Its pub/sub model allows easy real-time data ingestion.
+
+2. Log Aggregation - Kafka can collect and aggregate logs from many services and make them available in standard format to multiple consumers for monitoring and analysis. 
+
+3. Message Queuing - Kafka enables loosely coupled producers and consumers to exchange messages through message queue topics for async communication between microservices.
+
+4. Data Replication - Kafka Connect can continuously replicate data between databases and keep them in sync, supporting use cases like high availability and disaster recovery.
+
+5. Monitoring & Alerting - Tools can stream service logs and metrics to Kafka, apply stream processing, and send real-time alerts when issues are detected.
+
+6. Change Data Capture (CDC) - Kafka can capture change events from databases using CDC connectors, enabling apps to react to data changes in real-time.
+
+7. System Migration - Kafka decouples old and new systems during migrations, allowing incremental movement of functionality to the new system with low risk.
+
+8. Real-Time Analytics - Kafka enables real-time collection of events to feed analytics systems and dashboards that provide immediate insights on business metrics.
+
+![img](https://github.com/SouravGanesh/Data-Digest/blob/610eb8ddb00de3a938130e15295002b7d9696dad/images/kafka2.gif)
