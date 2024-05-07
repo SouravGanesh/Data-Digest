@@ -19,4 +19,4 @@ Key commands:
 
 With these basic concepts and commands, you can leverage GIT to track changes, work in branches, and collaborate with others. 
 
-![img]()
+![img](https://github.com/SouravGanesh/Data-Digest/blob/672dd0231f7adcfa2c641d50a84f961b5b08a4a9/images/git1.gif)
