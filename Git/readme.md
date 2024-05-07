@@ -102,3 +102,32 @@ Why Git Workflow Matters
 - Documentation for team alignment
 
 ![img](https://github.com/SouravGanesh/Data-Digest/blob/bc36a029eafd6bc3fe264047cd2dac71060ef591/images/git3.gif)
+
+Git Essentials: A Quick Guide
+
+📌 Getting Started
+- 𝚐𝚒𝚝 𝚒𝚗𝚒𝚝: Initialize a new repository
+- 𝚐𝚒𝚝 𝚌𝚕𝚘𝚗𝚎 <𝚛𝚎𝚙𝚘>: Clone an existing project
+
+💡 Making Changes
+- 𝚐𝚒𝚝 𝚜𝚝𝚊𝚝𝚞𝚜: Check file status
+- 𝚐𝚒𝚝 𝚊𝚍𝚍 <𝚏𝚒𝚕𝚎𝚗𝚊𝚖𝚎> or 𝚐𝚒𝚝 𝚊𝚍𝚍 .: Stage changes
+- 𝚐𝚒𝚝 𝚌𝚘𝚖𝚖𝚒𝚝 -𝚖 "𝙼𝚎𝚜𝚜𝚊𝚐𝚎": Commit staged changes
+
+🌿 Branching
+- 𝚐𝚒𝚝 𝚋𝚛𝚊𝚗𝚌𝚑: List branches
+- 𝚐𝚒𝚝 𝚋𝚛𝚊𝚗𝚌𝚑 <𝚋𝚛𝚊𝚗𝚌𝚑𝚗𝚊𝚖𝚎>: Create a new branch
+- 𝚐𝚒𝚝 𝚌𝚑𝚎𝚌𝚔𝚘𝚞𝚝 <𝚋𝚛𝚊𝚗𝚌𝚑𝚗𝚊𝚖𝚎>: Switch branches
+- 𝚐𝚒𝚝 𝚖𝚎𝚛𝚐𝚎 <𝚋𝚛𝚊𝚗𝚌𝚑𝚗𝚊𝚖𝚎>: Merge a branch into main
+
+🌐 Remote Repositories
+- 𝚐𝚒𝚝 𝚙𝚞𝚜𝚑 𝚘𝚛𝚒𝚐𝚒𝚗 <𝚋𝚛𝚊𝚗𝚌𝚑𝚗𝚊𝚖𝚎>: Push commits to remote
+- 𝚐𝚒𝚝 𝚙𝚞𝚕𝚕: Fetch and merge remote changes
+- 𝚐𝚒𝚝 𝚛𝚎𝚖𝚘𝚝𝚎 -𝚟: Check connected remote servers
+
+🔑 Key Differences
+- 𝚏𝚎𝚝𝚌𝚑 vs 𝚙𝚞𝚕𝚕: Download vs download & merge
+- 𝚖𝚎𝚛𝚐𝚎 vs 𝚛𝚎𝚋𝚊𝚜𝚎: Combine vs move/combine commits
+- 𝚛𝚎𝚜𝚎𝚝 vs 𝚛𝚎𝚟𝚎𝚛𝚝: Discard vs undo via new commit
+
+![img](https://github.com/SouravGanesh/Data-Digest/blob/0dc3b7668bc959db1a1003e6a582ab3518917282/images/git4.jpg)
