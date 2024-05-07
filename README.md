@@ -57,3 +57,30 @@ Data warehouses store structured, optimized data that's been cleaned and process
 Overall, data lakes provide flexibility and scalability for exploratory analytics on varied data, while data warehouses are tailored for structured data and predefined workloads. Assess your use cases, data types and volumes, performance needs, and costs to choose the right technology for your needs.
 
 ![Cheetsheet](images/data_l&w_cheeetsheet.png)
+
+𝗗𝗮𝘁𝗮𝗯𝗿𝗶𝗰𝗸𝘀 𝘃𝘀. 𝗦𝗻𝗼𝘄𝗳𝗹𝗮𝗸𝗲: 𝗔 𝗖𝗼𝗺𝗽𝗮𝗿𝗶𝘀𝗼𝗻 🥊☁
+
+With data volumes surging, picking the right cloud data warehouse is critical. Let's explore how leading options Databricks and Snowflake compare.
+
+⚡ 𝗗𝗮𝘁𝗮𝗯𝗿𝗶𝗰𝗸𝘀:
+- Unified analytics platform optimized for big data
+- Leverages Spark for scalable distributed processing
+- Supports real-time streaming analytics
+- Easy integration with ML libraries like TensorFlow
+
+❄ 𝗦𝗻𝗼𝘄𝗳𝗹𝗮𝗸𝗲:
+- Cloud-native data warehouse designed for flexibility
+- Segregates storage and compute for scalability
+- Fast performance for high-concurrency SQL analytics
+- Virtual warehouses provide tunable resources
+
+𝗞𝗲𝘆 𝗗𝗶𝗳𝗳𝗲𝗿𝗲𝗻𝗰𝗲𝘀:
+Databricks excels at big data workflows and advanced analytics while Snowflake powers SQL analytics and serves as a cloud data warehouse. Databricks offers better support for unstructured data while Snowflake specializes in structured data.
+
+𝗨𝘀𝗲 𝗖𝗮𝘀𝗲𝘀:
+Databricks shines for ETL, machine learning, and real-time analytics. Snowflake is ideal for BI and data sharing use cases that require querying large datasets.
+
+𝗖𝗼𝗻𝗰𝗹𝘂𝘀𝗶𝗼𝗻:
+Databricks and Snowflake both deliver robust analytics capabilities through different approaches. Understanding their respective strengths and aligning them to your use cases is key to choosing the right platform. Evaluating your requirements and data infrastructure will determine which solution fits best. With clear goals, you can leverage these technologies for impactful data insights!
+
+![Cheetsheet](https://github.com/SouravGanesh/Data-Digest/blob/e874d49ddc0685dc7755ccc8a2fb0991286d0d8e/images/data_db%26sf_cheeetsheet.png)
