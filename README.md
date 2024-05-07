@@ -134,3 +134,43 @@ Databricks and Snowflake both deliver robust analytics capabilities through diff
 Understanding their differences is not just about knowledge, it's about making informed decisions for efficient and effective data handling.
 
 ![Cheetsheet](https://github.com/SouravGanesh/Data-Digest/blob/fa777e859028b70d88e16a224670ea8d6811eecb/images/database.png)
+
+
+The term 'Data Lake' might sound like tech jargon, but let's demystify it.
+
+Introduced in the early 2010s, a Data Lake is a centralized repository designed to store vast amounts of raw data, irrespective of its source or format. 
+
+Unlike traditional systems, it doesn't discriminate – structured, semi-structured, or unstructured; it welcomes all types of data. 
+
+𝗧𝗵𝗲 𝗶𝗱𝗲𝗮? 
+
+To have a single source of truth, ready to be analyzed when needed.
+
+Here's a step-by-step journey through a Data Lake:
+
+1.𝗗𝗮𝘁𝗮 𝗜𝗻𝗴𝗲𝘀𝘁𝗶𝗼𝗻:
+Firstly, we collect data from varied sources:
+- 📜 Logs: Diagnostic records.
+- 🌐 Social Media: Capturing real-time sentiments.
+- ☁️ Cloud: A reservoir of scalable resources.
+- 🔄 ERP/CRM: The epicenter of your business operations.
+- 📂 Flat Files & 🗃️ OLTP: Simplicity and real-time transactions.
+
+2.𝗘𝗧𝗟 𝗣𝗿𝗼𝗰𝗲𝘀𝘀:
+Once data enters the system, the ETL (Extract, Transform, Load) process kicks in. This is where data is cleansed, transformed, and made ready for analysis.
+
+3.𝗦𝘁𝗼𝗿𝗮𝗴𝗲 𝗮𝗻𝗱 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁:
+The Data Lake has distinct zones:
+- 🔶 𝗕𝗿𝗼𝗻𝘇𝗲 𝗭𝗼𝗻𝗲: Raw data's initial resting place.
+- 🔷 𝗦𝗶𝗹𝘃𝗲𝗿 𝗭𝗼𝗻𝗲: The transformation stage where data is cleaned and structured.
+- 🥇 𝗚𝗼𝗹𝗱 𝗭𝗼𝗻𝗲: Here, data is refined, trusted, and ready for consumption.
+
+🛡️ 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆: Ensuring data integrity and protection.
+🔍 𝗦𝗲𝗮𝗿𝗰𝗵: Efficiently find the data you need.
+🌐 𝗚𝗼𝘃𝗲𝗿𝗻 𝗭𝗼𝗻𝗲: Where data management policies reside to maintain data quality and compliance.
+
+🔽 𝗗𝗮𝘁𝗮 𝗖𝗼𝗻𝘀𝘂𝗺𝗽𝘁𝗶𝗼𝗻: The final frontier where data meets its destiny – be it in analytics, machine learning models, or business reports.
+
+Remember, the essence of a Data Lake is not just in its storage but how effectively we can transform raw data into actionable insights. 
+
+![Cheetsheet](https://github.com/SouravGanesh/Data-Digest/blob/4ce6a2dd3e09543757c52b77463f1712b97cee26/images/datalake.gif)
