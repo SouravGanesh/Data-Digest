@@ -3,7 +3,7 @@
 If you're into data engineering, knowing these terms will help you work with data storage, moving data around, and making sense of it all.
 
 ⚙ 𝗗𝗮𝘁𝗮 𝗣𝗶𝗽𝗲𝗹𝗶𝗻𝗲: An automated process that moves and prepares data.
-💾 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲 [Link to Section 2](#𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲): An organized collection of data for easy access.
+ [💾 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲](#database): An organized collection of data for easy access.
 
 📋 𝗦𝗰𝗵𝗲𝗺𝗮: The blueprint defining a database's structure.
 💡 𝗧𝗮𝗯𝗹𝗲: A structured grid containing related data points.
@@ -55,7 +55,7 @@ This includes executing complex aggregations with window functions, breaking dow
 - Familiarize yourself with scheduling Python DAGs using cron expressions.
 
 
-<a name="Database"></a>
+<a name="database"></a>
 ## Database
 1. 𝗦𝗽𝗮𝘁𝗶𝗮𝗹 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀: Handle spatial data, perfect for applications involving maps, GIS, and location-based services. Ideal for navigating a world of coordinates!
 
