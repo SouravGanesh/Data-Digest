@@ -1,4 +1,30 @@
-essential areas of focus:
+𝗗𝗮𝘁𝗮 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝗧𝗲𝗿𝗺𝘀 𝗬𝗼𝘂 𝗡𝗲𝗲𝗱 𝘁𝗼 𝗞𝗻𝗼𝘄!
+
+If you're into data engineering, knowing these terms will help you work with data storage, moving data around, and making sense of it all.
+
+⚙ 𝗗𝗮𝘁𝗮 𝗣𝗶𝗽𝗲𝗹𝗶𝗻𝗲: An automated process that moves and prepares data.
+💾 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲: An organized collection of data for easy access.
+
+📋 𝗦𝗰𝗵𝗲𝗺𝗮: The blueprint defining a database's structure.
+💡 𝗧𝗮𝗯𝗹𝗲: A structured grid containing related data points.
+
+🏠 𝗗𝗮𝘁𝗮 𝗪𝗮𝗿𝗲𝗵𝗼𝘂𝘀𝗲: A central hub for integrated data analysis.
+⤵️ 𝗘𝗧𝗟: Extract, Transform, Load - The traditional way to extract, clean, and load data.
+⤴️ 𝗘𝗟𝗧: Extract, Load, Transform - The modern approach of loading data first, then transforming it.
+
+🏞️ 𝗗𝗮𝘁𝗮 𝗟𝗮𝗸𝗲: Massive storage for raw, unorganized data.
+⏱️ 𝗕𝗮𝘁𝗰𝗵 𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴: Processing data in large chunks at set times.
+⏱️ 𝗦𝘁𝗿𝗲𝗮𝗺 𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴: Processing data in real-time as it arrives.
+
+📊 𝗗𝗮𝘁𝗮 𝗠𝗮𝗿𝘁: A specific slice of a data warehouse for a particular domain.
+🔍 𝗗𝗮𝘁𝗮 𝗤𝘂𝗮𝗹𝗶𝘁𝘆: Ensuring data accuracy, consistency, and reliability.
+🕸️ 𝗗𝗮𝘁𝗮 𝗠𝗼𝗱𝗲𝗹𝗶𝗻𝗴: Designing the logical structure and connections of data.
+
+🌊 𝗗𝗮𝘁𝗮 𝗟𝗮𝗸𝗲𝗵𝗼𝘂𝘀𝗲: Combines the flexibility of a data lake with a data warehouse's structure.
+🎻 𝗗𝗮𝘁𝗮 𝗢𝗿𝗰𝗵𝗲𝘀𝘁𝗿𝗮𝘁𝗶𝗼𝗻: Coordinating and managing complex data workflows.
+🔎 𝗗𝗮𝘁𝗮 𝗟𝗶𝗻𝗲𝗮𝗴𝗲: Tracing a data's origin and journey through its use.
+
+![Cheetsheet](https://github.com/SouravGanesh/Data-Digest/blob/057452f12e3934ad25bc5a46421500df41b482b1/images/de_terms.gif)
 
 𝗗𝗮𝘁𝗮 𝗜𝗻𝘁𝗲𝗴𝗿𝗮𝘁𝗶𝗼𝗻 𝗧𝗲𝗰𝗵𝗻𝗶𝗾𝘂𝗲𝘀
 
@@ -29,43 +55,7 @@ This includes executing complex aggregations with window functions, breaking dow
 - Familiarize yourself with scheduling Python DAGs using cron expressions.
 
 
-𝗗𝗲𝗽𝗹𝗼𝘆𝗺𝗲𝗻𝘁 𝗞𝗻𝗼𝘄-𝗛𝗼𝘄
 
-
-- Become proficient in using GIT for code versioning.
-
-- Learn to deploy an ETL pipeline (comprising extraction, loading, transformation, and orchestration) to cloud services like AWS.
-
-- Understand how to dockerize an application for streamlined deployment to cloud platforms such as AWS Elastic Container Service.
-![Cheetsheet](https://github.com/SouravGanesh/Data-Digest/blob/3e10378ed3f23e5500408a76d34e9a1f82b5129c/images/de2.png)
-
-𝗗𝗮𝘁𝗮 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝗧𝗲𝗿𝗺𝘀 𝗬𝗼𝘂 𝗡𝗲𝗲𝗱 𝘁𝗼 𝗞𝗻𝗼𝘄!
-
-If you're into data engineering, knowing these terms will help you work with data storage, moving data around, and making sense of it all.
-
-⚙ 𝗗𝗮𝘁𝗮 𝗣𝗶𝗽𝗲𝗹𝗶𝗻𝗲: An automated process that moves and prepares data.
-💾 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲: An organized collection of data for easy access.
-
-📋 𝗦𝗰𝗵𝗲𝗺𝗮: The blueprint defining a database's structure.
-💡 𝗧𝗮𝗯𝗹𝗲: A structured grid containing related data points.
-
-🏠 𝗗𝗮𝘁𝗮 𝗪𝗮𝗿𝗲𝗵𝗼𝘂𝘀𝗲: A central hub for integrated data analysis.
-⤵️ 𝗘𝗧𝗟: Extract, Transform, Load - The traditional way to extract, clean, and load data.
-⤴️ 𝗘𝗟𝗧: Extract, Load, Transform - The modern approach of loading data first, then transforming it.
-
-🏞️ 𝗗𝗮𝘁𝗮 𝗟𝗮𝗸𝗲: Massive storage for raw, unorganized data.
-⏱️ 𝗕𝗮𝘁𝗰𝗵 𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴: Processing data in large chunks at set times.
-⏱️ 𝗦𝘁𝗿𝗲𝗮𝗺 𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴: Processing data in real-time as it arrives.
-
-📊 𝗗𝗮𝘁𝗮 𝗠𝗮𝗿𝘁: A specific slice of a data warehouse for a particular domain.
-🔍 𝗗𝗮𝘁𝗮 𝗤𝘂𝗮𝗹𝗶𝘁𝘆: Ensuring data accuracy, consistency, and reliability.
-🕸️ 𝗗𝗮𝘁𝗮 𝗠𝗼𝗱𝗲𝗹𝗶𝗻𝗴: Designing the logical structure and connections of data.
-
-🌊 𝗗𝗮𝘁𝗮 𝗟𝗮𝗸𝗲𝗵𝗼𝘂𝘀𝗲: Combines the flexibility of a data lake with a data warehouse's structure.
-🎻 𝗗𝗮𝘁𝗮 𝗢𝗿𝗰𝗵𝗲𝘀𝘁𝗿𝗮𝘁𝗶𝗼𝗻: Coordinating and managing complex data workflows.
-🔎 𝗗𝗮𝘁𝗮 𝗟𝗶𝗻𝗲𝗮𝗴𝗲: Tracing a data's origin and journey through its use.
-
-![Cheetsheet](https://github.com/SouravGanesh/Data-Digest/blob/057452f12e3934ad25bc5a46421500df41b482b1/images/de_terms.gif)
 
 𝟭. 𝗟𝗶𝗻𝗲𝗮𝗿 𝗥𝗲𝗴𝗿𝗲𝘀𝘀𝗶𝗼𝗻: Imagine you want to predict the price of a house based on its size. Linear regression helps you find the straight-line relationship between size and price.
 
