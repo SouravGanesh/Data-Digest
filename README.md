@@ -8,7 +8,7 @@ If you're into data engineering, knowing these terms will help you work with dat
 [📋 𝗦𝗰𝗵𝗲𝗺𝗮](#s𝗰𝗵𝗲𝗺𝗮): The blueprint defining a database's structure.
 💡 𝗧𝗮𝗯𝗹𝗲: A structured grid containing related data points.
 
-[🏠 𝗗𝗮𝘁𝗮 𝗪𝗮𝗿𝗲𝗵𝗼𝘂𝘀𝗲](#datalake): A central hub for integrated data analysis.
+[🏠 𝗗𝗮𝘁𝗮 𝗪𝗮𝗿𝗲𝗵𝗼𝘂𝘀𝗲](#dataware): A central hub for integrated data analysis.
 ⤵️ 𝗘𝗧𝗟: Extract, Transform, Load - The traditional way to extract, clean, and load data.
 ⤴️ 𝗘𝗟𝗧: Extract, Load, Transform - The modern approach of loading data first, then transforming it.
 
@@ -79,6 +79,24 @@ Understanding their differences is not just about knowledge, it's about making i
 
 ![Cheetsheet](https://github.com/SouravGanesh/Data-Digest/blob/fa777e859028b70d88e16a224670ea8d6811eecb/images/database.png)
 
+## Database Sharding
+As data volumes grow, databases often struggle to keep up with performance demands. 
+
+One powerful technique to scale databases is sharding - horizontally partitioning data across multiple databases.
+
+Vertical Partitioning splits tables by columns, with different columns stored in separate tables. This allows frequently accessed columns to be separated for faster querying.
+
+Horizontal Partitioning, in contrast, involves splitting a table across different databases by rows. Large tables are divided into smaller shards that can be queried in parallel.
+
+𝗞𝗲𝘆-𝗯𝗮𝘀𝗲𝗱 𝘀𝗵𝗮𝗿𝗱𝗶𝗻𝗴 determines the shard for each row based on the value of a "shard key" column. Records with shard key values in a certain range are stored together. 
+
+𝗥𝗮𝗻𝗴𝗲-𝗯𝗮𝘀𝗲𝗱 𝘀𝗵𝗮𝗿𝗱𝗶𝗻𝗴 is a variation where ranges of shard key values are allocated to each shard. The infographic shows an example where products priced $120-150 are in one shard, $151-500 in another, and $501+ in a third shard. This enables fine-grained allocation of key ranges to shards based on value distribution.
+
+𝗗𝗶𝗿𝗲𝗰𝘁𝗼𝗿𝘆-𝗯𝗮𝘀𝗲𝗱 𝘀𝗵𝗮𝗿𝗱𝗶𝗻𝗴 adds a lookup table that maps a shard key to the database shard, allowing more flexibility than key-based sharding in allocating data to shards.
+
+Sharding is a great way to achieve horizontal scaling and handle increasing data volumes. 
+![Cheetsheet](https://github.com/SouravGanesh/Data-Digest/blob/317eb346833fef8ba4ebdbaf2dfa4b89d6f5a838/images/sharding.png)
+
 
 <a name="#s𝗰𝗵𝗲𝗺𝗮"></a>
 ## S𝗰𝗵𝗲𝗺𝗮
@@ -109,8 +127,49 @@ Data Modeling is the art and science of creating a structured framework to handl
 
 ![Cheetsheet](images/shema_cheeetsheet.png)
 
-
 <a name="#datalake"></a>
+## 𝗗𝗮𝘁𝗮 𝗟𝗮𝗸𝗲 
+The term 'Data Lake' might sound like tech jargon, but let's demystify it.
+
+Introduced in the early 2010s, a Data Lake is a centralized repository designed to store vast amounts of raw data, irrespective of its source or format. 
+
+Unlike traditional systems, it doesn't discriminate – structured, semi-structured, or unstructured; it welcomes all types of data. 
+
+𝗧𝗵𝗲 𝗶𝗱𝗲𝗮? 
+
+To have a single source of truth, ready to be analyzed when needed.
+
+Here's a step-by-step journey through a Data Lake:
+
+1.𝗗𝗮𝘁𝗮 𝗜𝗻𝗴𝗲𝘀𝘁𝗶𝗼𝗻:
+Firstly, we collect data from varied sources:
+- 📜 Logs: Diagnostic records.
+- 🌐 Social Media: Capturing real-time sentiments.
+- ☁️ Cloud: A reservoir of scalable resources.
+- 🔄 ERP/CRM: The epicenter of your business operations.
+- 📂 Flat Files & 🗃️ OLTP: Simplicity and real-time transactions.
+
+2.𝗘𝗧𝗟 𝗣𝗿𝗼𝗰𝗲𝘀𝘀:
+Once data enters the system, the ETL (Extract, Transform, Load) process kicks in. This is where data is cleansed, transformed, and made ready for analysis.
+
+3.𝗦𝘁𝗼𝗿𝗮𝗴𝗲 𝗮𝗻𝗱 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁:
+The Data Lake has distinct zones:
+- 🔶 𝗕𝗿𝗼𝗻𝘇𝗲 𝗭𝗼𝗻𝗲: Raw data's initial resting place.
+- 🔷 𝗦𝗶𝗹𝘃𝗲𝗿 𝗭𝗼𝗻𝗲: The transformation stage where data is cleaned and structured.
+- 🥇 𝗚𝗼𝗹𝗱 𝗭𝗼𝗻𝗲: Here, data is refined, trusted, and ready for consumption.
+
+🛡️ 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆: Ensuring data integrity and protection.
+🔍 𝗦𝗲𝗮𝗿𝗰𝗵: Efficiently find the data you need.
+🌐 𝗚𝗼𝘃𝗲𝗿𝗻 𝗭𝗼𝗻𝗲: Where data management policies reside to maintain data quality and compliance.
+
+🔽 𝗗𝗮𝘁𝗮 𝗖𝗼𝗻𝘀𝘂𝗺𝗽𝘁𝗶𝗼𝗻: The final frontier where data meets its destiny – be it in analytics, machine learning models, or business reports.
+
+Remember, the essence of a Data Lake is not just in its storage but how effectively we can transform raw data into actionable insights. 
+
+![Cheetsheet](https://github.com/SouravGanesh/Data-Digest/blob/4ce6a2dd3e09543757c52b77463f1712b97cee26/images/datalake.gif)
+
+
+<a name="#dataware"></a>
 ## 𝗗𝗮𝘁𝗮 𝗟𝗮𝗸𝗲 𝘃𝘀 𝗗𝗮𝘁𝗮 𝗪𝗮𝗿𝗲𝗵𝗼𝘂𝘀𝗲
 𝗗𝗮𝘁𝗮 𝗟𝗮𝗸𝗲 𝘃𝘀 𝗗𝗮𝘁𝗮 𝗪𝗮𝗿𝗲𝗵𝗼𝘂𝘀𝗲: 𝗞𝗲𝘆 𝗗𝗶𝗳𝗳𝗲𝗿𝗲𝗻𝗰𝗲𝘀 👨‍💻
 
@@ -125,6 +184,8 @@ Data warehouses store structured, optimized data that's been cleaned and process
 Overall, data lakes provide flexibility and scalability for exploratory analytics on varied data, while data warehouses are tailored for structured data and predefined workloads. Assess your use cases, data types and volumes, performance needs, and costs to choose the right technology for your needs.
 
 ![Cheetsheet](images/data_l&w_cheeetsheet.png)
+
+
 
 
 ## 𝗗𝗮𝘁𝗮𝗯𝗿𝗶𝗰𝗸𝘀 𝘃𝘀. 𝗦𝗻𝗼𝘄𝗳𝗹𝗮𝗸𝗲: 𝗔 𝗖𝗼𝗺𝗽𝗮𝗿𝗶𝘀𝗼𝗻 🥊☁
@@ -173,61 +234,3 @@ Databricks and Snowflake both deliver robust analytics capabilities through diff
 𝟴. 𝗚𝗿𝗮𝗱𝗶𝗲𝗻𝘁 𝗕𝗼𝗼𝘀𝘁𝗶𝗻𝗴 𝗠𝗮𝗰𝗵𝗶𝗻𝗲𝘀 (𝗚𝗕𝗠): This is like a smart assembly line, where each new machine corrects the mistakes of the previous one to improve results.
 
 ![ML Cheetsheet](images/ml_cheeetsheet.png)
-
-
-
-The term 'Data Lake' might sound like tech jargon, but let's demystify it.
-
-Introduced in the early 2010s, a Data Lake is a centralized repository designed to store vast amounts of raw data, irrespective of its source or format. 
-
-Unlike traditional systems, it doesn't discriminate – structured, semi-structured, or unstructured; it welcomes all types of data. 
-
-𝗧𝗵𝗲 𝗶𝗱𝗲𝗮? 
-
-To have a single source of truth, ready to be analyzed when needed.
-
-Here's a step-by-step journey through a Data Lake:
-
-1.𝗗𝗮𝘁𝗮 𝗜𝗻𝗴𝗲𝘀𝘁𝗶𝗼𝗻:
-Firstly, we collect data from varied sources:
-- 📜 Logs: Diagnostic records.
-- 🌐 Social Media: Capturing real-time sentiments.
-- ☁️ Cloud: A reservoir of scalable resources.
-- 🔄 ERP/CRM: The epicenter of your business operations.
-- 📂 Flat Files & 🗃️ OLTP: Simplicity and real-time transactions.
-
-2.𝗘𝗧𝗟 𝗣𝗿𝗼𝗰𝗲𝘀𝘀:
-Once data enters the system, the ETL (Extract, Transform, Load) process kicks in. This is where data is cleansed, transformed, and made ready for analysis.
-
-3.𝗦𝘁𝗼𝗿𝗮𝗴𝗲 𝗮𝗻𝗱 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁:
-The Data Lake has distinct zones:
-- 🔶 𝗕𝗿𝗼𝗻𝘇𝗲 𝗭𝗼𝗻𝗲: Raw data's initial resting place.
-- 🔷 𝗦𝗶𝗹𝘃𝗲𝗿 𝗭𝗼𝗻𝗲: The transformation stage where data is cleaned and structured.
-- 🥇 𝗚𝗼𝗹𝗱 𝗭𝗼𝗻𝗲: Here, data is refined, trusted, and ready for consumption.
-
-🛡️ 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆: Ensuring data integrity and protection.
-🔍 𝗦𝗲𝗮𝗿𝗰𝗵: Efficiently find the data you need.
-🌐 𝗚𝗼𝘃𝗲𝗿𝗻 𝗭𝗼𝗻𝗲: Where data management policies reside to maintain data quality and compliance.
-
-🔽 𝗗𝗮𝘁𝗮 𝗖𝗼𝗻𝘀𝘂𝗺𝗽𝘁𝗶𝗼𝗻: The final frontier where data meets its destiny – be it in analytics, machine learning models, or business reports.
-
-Remember, the essence of a Data Lake is not just in its storage but how effectively we can transform raw data into actionable insights. 
-
-![Cheetsheet](https://github.com/SouravGanesh/Data-Digest/blob/4ce6a2dd3e09543757c52b77463f1712b97cee26/images/datalake.gif)
-
-As data volumes grow, databases often struggle to keep up with performance demands. 
-
-One powerful technique to scale databases is sharding - horizontally partitioning data across multiple databases.
-
-Vertical Partitioning splits tables by columns, with different columns stored in separate tables. This allows frequently accessed columns to be separated for faster querying.
-
-Horizontal Partitioning, in contrast, involves splitting a table across different databases by rows. Large tables are divided into smaller shards that can be queried in parallel.
-
-𝗞𝗲𝘆-𝗯𝗮𝘀𝗲𝗱 𝘀𝗵𝗮𝗿𝗱𝗶𝗻𝗴 determines the shard for each row based on the value of a "shard key" column. Records with shard key values in a certain range are stored together. 
-
-𝗥𝗮𝗻𝗴𝗲-𝗯𝗮𝘀𝗲𝗱 𝘀𝗵𝗮𝗿𝗱𝗶𝗻𝗴 is a variation where ranges of shard key values are allocated to each shard. The infographic shows an example where products priced $120-150 are in one shard, $151-500 in another, and $501+ in a third shard. This enables fine-grained allocation of key ranges to shards based on value distribution.
-
-𝗗𝗶𝗿𝗲𝗰𝘁𝗼𝗿𝘆-𝗯𝗮𝘀𝗲𝗱 𝘀𝗵𝗮𝗿𝗱𝗶𝗻𝗴 adds a lookup table that maps a shard key to the database shard, allowing more flexibility than key-based sharding in allocating data to shards.
-
-Sharding is a great way to achieve horizontal scaling and handle increasing data volumes. 
-![Cheetsheet](https://github.com/SouravGanesh/Data-Digest/blob/317eb346833fef8ba4ebdbaf2dfa4b89d6f5a838/images/sharding.png)
