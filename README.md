@@ -174,3 +174,20 @@ The Data Lake has distinct zones:
 Remember, the essence of a Data Lake is not just in its storage but how effectively we can transform raw data into actionable insights. 
 
 ![Cheetsheet](https://github.com/SouravGanesh/Data-Digest/blob/4ce6a2dd3e09543757c52b77463f1712b97cee26/images/datalake.gif)
+
+As data volumes grow, databases often struggle to keep up with performance demands. 
+
+One powerful technique to scale databases is sharding - horizontally partitioning data across multiple databases.
+
+Vertical Partitioning splits tables by columns, with different columns stored in separate tables. This allows frequently accessed columns to be separated for faster querying.
+
+Horizontal Partitioning, in contrast, involves splitting a table across different databases by rows. Large tables are divided into smaller shards that can be queried in parallel.
+
+𝗞𝗲𝘆-𝗯𝗮𝘀𝗲𝗱 𝘀𝗵𝗮𝗿𝗱𝗶𝗻𝗴 determines the shard for each row based on the value of a "shard key" column. Records with shard key values in a certain range are stored together. 
+
+𝗥𝗮𝗻𝗴𝗲-𝗯𝗮𝘀𝗲𝗱 𝘀𝗵𝗮𝗿𝗱𝗶𝗻𝗴 is a variation where ranges of shard key values are allocated to each shard. The infographic shows an example where products priced $120-150 are in one shard, $151-500 in another, and $501+ in a third shard. This enables fine-grained allocation of key ranges to shards based on value distribution.
+
+𝗗𝗶𝗿𝗲𝗰𝘁𝗼𝗿𝘆-𝗯𝗮𝘀𝗲𝗱 𝘀𝗵𝗮𝗿𝗱𝗶𝗻𝗴 adds a lookup table that maps a shard key to the database shard, allowing more flexibility than key-based sharding in allocating data to shards.
+
+Sharding is a great way to achieve horizontal scaling and handle increasing data volumes. 
+![Cheetsheet](https://github.com/SouravGanesh/Data-Digest/blob/317eb346833fef8ba4ebdbaf2dfa4b89d6f5a838/images/sharding.png)
