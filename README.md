@@ -5,14 +5,14 @@ If you're into data engineering, knowing these terms will help you work with dat
 ⚙ 𝗗𝗮𝘁𝗮 𝗣𝗶𝗽𝗲𝗹𝗶𝗻𝗲: An automated process that moves and prepares data.
  [💾 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲](#database): An organized collection of data for easy access.
 
-📋 𝗦𝗰𝗵𝗲𝗺𝗮: The blueprint defining a database's structure.
+[📋 𝗦𝗰𝗵𝗲𝗺𝗮](#s𝗰𝗵𝗲𝗺𝗮): The blueprint defining a database's structure.
 💡 𝗧𝗮𝗯𝗹𝗲: A structured grid containing related data points.
 
-🏠 𝗗𝗮𝘁𝗮 𝗪𝗮𝗿𝗲𝗵𝗼𝘂𝘀𝗲: A central hub for integrated data analysis.
+[🏠 𝗗𝗮𝘁𝗮 𝗪𝗮𝗿𝗲𝗵𝗼𝘂𝘀𝗲](#datalake): A central hub for integrated data analysis.
 ⤵️ 𝗘𝗧𝗟: Extract, Transform, Load - The traditional way to extract, clean, and load data.
 ⤴️ 𝗘𝗟𝗧: Extract, Load, Transform - The modern approach of loading data first, then transforming it.
 
-🏞️ 𝗗𝗮𝘁𝗮 𝗟𝗮𝗸𝗲: Massive storage for raw, unorganized data.
+[🏞️ 𝗗𝗮𝘁𝗮 𝗟𝗮𝗸𝗲](#datalake): Massive storage for raw, unorganized data.
 ⏱️ 𝗕𝗮𝘁𝗰𝗵 𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴: Processing data in large chunks at set times.
 ⏱️ 𝗦𝘁𝗿𝗲𝗮𝗺 𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴: Processing data in real-time as it arrives.
 
@@ -80,26 +80,8 @@ Understanding their differences is not just about knowledge, it's about making i
 ![Cheetsheet](https://github.com/SouravGanesh/Data-Digest/blob/fa777e859028b70d88e16a224670ea8d6811eecb/images/database.png)
 
 
-
-
-𝟭. 𝗟𝗶𝗻𝗲𝗮𝗿 𝗥𝗲𝗴𝗿𝗲𝘀𝘀𝗶𝗼𝗻: Imagine you want to predict the price of a house based on its size. Linear regression helps you find the straight-line relationship between size and price.
-
-𝟮. 𝗟𝗼𝗴𝗶𝘀𝘁𝗶𝗰 𝗥𝗲𝗴𝗿𝗲𝘀𝘀𝗶𝗼𝗻: Contrary to what the name suggests, this is actually for classification tasks. It helps you decide if an email is spam or not by calculating the probability.
-
-𝟯. 𝗗𝗲𝗰𝗶𝘀𝗶𝗼𝗻 𝗧𝗿𝗲𝗲𝘀: These are like flowcharts that lead you to a decision by asking a series of questions based on the data's features.
-
-𝟰. 𝗥𝗮𝗻𝗱𝗼𝗺 𝗙𝗼𝗿𝗲𝘀𝘁: This one builds a whole 'forest' of decision trees and merges them to get more accurate and stable predictions.
-
-𝟱. 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗩𝗲𝗰𝘁𝗼𝗿 𝗠𝗮𝗰𝗵𝗶𝗻𝗲𝘀 (𝗦𝗩𝗠): If your data points are apples and oranges, SVM finds the best line that separates the apples from the oranges.
-
-𝟲. 𝗞-𝗡𝗲𝗮𝗿𝗲𝘀𝘁 𝗡𝗲𝗶𝗴𝗵𝗯𝗼𝗿𝘀 (𝗞𝗡𝗡): This algorithm looks at the closest data points, like neighbors, to decide the category of a new point.
-
-𝟳. 𝗡𝗮𝗶𝘃𝗲 𝗕𝗮𝘆𝗲𝘀: It's based on probability and is really good for things like filtering spam or analyzing sentiment.
-
-𝟴. 𝗚𝗿𝗮𝗱𝗶𝗲𝗻𝘁 𝗕𝗼𝗼𝘀𝘁𝗶𝗻𝗴 𝗠𝗮𝗰𝗵𝗶𝗻𝗲𝘀 (𝗚𝗕𝗠): This is like a smart assembly line, where each new machine corrects the mistakes of the previous one to improve results.
-
-![ML Cheetsheet](images/ml_cheeetsheet.png)
-
+<a name="#s𝗰𝗵𝗲𝗺𝗮"></a>
+## S𝗰𝗵𝗲𝗺𝗮
 𝗗𝗮𝘁𝗮 𝗠𝗼𝗱𝗲𝗹𝗶𝗻𝗴 - 𝗧𝗵𝗲 𝗕𝗹𝘂𝗲𝗽𝗿𝗶𝗻𝘁 𝗳𝗼𝗿 𝗗𝗮𝘁𝗮 𝗦𝘂𝗰𝗰𝗲𝘀𝘀
 
 Data Modeling is the art and science of creating a structured framework to handle the influx and storage of data. It's like the architectural blueprint of your data environment, ensuring efficiency, consistency, and scalability. In essence, it's your roadmap for data success.
@@ -128,6 +110,8 @@ Data Modeling is the art and science of creating a structured framework to handl
 ![Cheetsheet](images/shema_cheeetsheet.png)
 
 
+<a name="#datalake"></a>
+## 𝗗𝗮𝘁𝗮 𝗟𝗮𝗸𝗲 𝘃𝘀 𝗗𝗮𝘁𝗮 𝗪𝗮𝗿𝗲𝗵𝗼𝘂𝘀𝗲
 𝗗𝗮𝘁𝗮 𝗟𝗮𝗸𝗲 𝘃𝘀 𝗗𝗮𝘁𝗮 𝗪𝗮𝗿𝗲𝗵𝗼𝘂𝘀𝗲: 𝗞𝗲𝘆 𝗗𝗶𝗳𝗳𝗲𝗿𝗲𝗻𝗰𝗲𝘀 👨‍💻
 
 When building a data analytics infrastructure, two technologies often come to mind - data lakes and data warehouses. But when should you choose one over the other? Here's a look at their key differences and strengths:
@@ -142,7 +126,8 @@ Overall, data lakes provide flexibility and scalability for exploratory analytic
 
 ![Cheetsheet](images/data_l&w_cheeetsheet.png)
 
-𝗗𝗮𝘁𝗮𝗯𝗿𝗶𝗰𝗸𝘀 𝘃𝘀. 𝗦𝗻𝗼𝘄𝗳𝗹𝗮𝗸𝗲: 𝗔 𝗖𝗼𝗺𝗽𝗮𝗿𝗶𝘀𝗼𝗻 🥊☁
+
+## 𝗗𝗮𝘁𝗮𝗯𝗿𝗶𝗰𝗸𝘀 𝘃𝘀. 𝗦𝗻𝗼𝘄𝗳𝗹𝗮𝗸𝗲: 𝗔 𝗖𝗼𝗺𝗽𝗮𝗿𝗶𝘀𝗼𝗻 🥊☁
 
 With data volumes surging, picking the right cloud data warehouse is critical. Let's explore how leading options Databricks and Snowflake compare.
 
@@ -168,6 +153,27 @@ Databricks shines for ETL, machine learning, and real-time analytics. Snowflake 
 Databricks and Snowflake both deliver robust analytics capabilities through different approaches. Understanding their respective strengths and aligning them to your use cases is key to choosing the right platform. Evaluating your requirements and data infrastructure will determine which solution fits best. With clear goals, you can leverage these technologies for impactful data insights!
 
 ![Cheetsheet](https://github.com/SouravGanesh/Data-Digest/blob/e874d49ddc0685dc7755ccc8a2fb0991286d0d8e/images/data_db%26sf_cheeetsheet.png)
+
+
+## Machine Learning
+𝟭. 𝗟𝗶𝗻𝗲𝗮𝗿 𝗥𝗲𝗴𝗿𝗲𝘀𝘀𝗶𝗼𝗻: Imagine you want to predict the price of a house based on its size. Linear regression helps you find the straight-line relationship between size and price.
+
+𝟮. 𝗟𝗼𝗴𝗶𝘀𝘁𝗶𝗰 𝗥𝗲𝗴𝗿𝗲𝘀𝘀𝗶𝗼𝗻: Contrary to what the name suggests, this is actually for classification tasks. It helps you decide if an email is spam or not by calculating the probability.
+
+𝟯. 𝗗𝗲𝗰𝗶𝘀𝗶𝗼𝗻 𝗧𝗿𝗲𝗲𝘀: These are like flowcharts that lead you to a decision by asking a series of questions based on the data's features.
+
+𝟰. 𝗥𝗮𝗻𝗱𝗼𝗺 𝗙𝗼𝗿𝗲𝘀𝘁: This one builds a whole 'forest' of decision trees and merges them to get more accurate and stable predictions.
+
+𝟱. 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗩𝗲𝗰𝘁𝗼𝗿 𝗠𝗮𝗰𝗵𝗶𝗻𝗲𝘀 (𝗦𝗩𝗠): If your data points are apples and oranges, SVM finds the best line that separates the apples from the oranges.
+
+𝟲. 𝗞-𝗡𝗲𝗮𝗿𝗲𝘀𝘁 𝗡𝗲𝗶𝗴𝗵𝗯𝗼𝗿𝘀 (𝗞𝗡𝗡): This algorithm looks at the closest data points, like neighbors, to decide the category of a new point.
+
+𝟳. 𝗡𝗮𝗶𝘃𝗲 𝗕𝗮𝘆𝗲𝘀: It's based on probability and is really good for things like filtering spam or analyzing sentiment.
+
+𝟴. 𝗚𝗿𝗮𝗱𝗶𝗲𝗻𝘁 𝗕𝗼𝗼𝘀𝘁𝗶𝗻𝗴 𝗠𝗮𝗰𝗵𝗶𝗻𝗲𝘀 (𝗚𝗕𝗠): This is like a smart assembly line, where each new machine corrects the mistakes of the previous one to improve results.
+
+![ML Cheetsheet](images/ml_cheeetsheet.png)
+
 
 
 The term 'Data Lake' might sound like tech jargon, but let's demystify it.
