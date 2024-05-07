@@ -173,8 +173,8 @@ The Data Lake has distinct zones:
 - 🥇 𝗚𝗼𝗹𝗱 𝗭𝗼𝗻𝗲: Here, data is refined, trusted, and ready for consumption.
 
 🛡️ 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆: Ensuring data integrity and protection.
+
 🔍 𝗦𝗲𝗮𝗿𝗰𝗵: Efficiently find the data you need.
-🌐 𝗚𝗼𝘃𝗲𝗿𝗻 𝗭𝗼𝗻𝗲: Where data management policies reside to maintain data quality and compliance.
 
 🔽 𝗗𝗮𝘁𝗮 𝗖𝗼𝗻𝘀𝘂𝗺𝗽𝘁𝗶𝗼𝗻: The final frontier where data meets its destiny – be it in analytics, machine learning models, or business reports.
 
