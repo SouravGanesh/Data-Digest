@@ -44,3 +44,44 @@ Python provides access to command-line arguments through the `sys.argv` list or 
     optional_arg_value = args.optional_arg
     ```
   - Example usage: `python script.py 10 --optional_arg value`
+
+
+# Regular Expressions (Regex)
+
+Regular expressions, often abbreviated as regex, are a sequence of characters that form a search pattern. They are widely used in various programming languages and text editors to find and manipulate text based on patterns. In Python, the `re` module provides support for regular expressions.
+
+## Understanding Regular Expressions
+
+Regular expressions enable you to search for specific patterns within strings. They allow you to define rules to match characters or sequences of characters in text. For example, you can use regular expressions to find email addresses, phone numbers, or any other structured data within a document.
+
+## Using Special Characters and Metacharacters
+
+Regular expressions utilize special characters and metacharacters to define patterns. Some commonly used special characters include:
+
+- `.` : Matches any single character except newline.
+- `^` : Anchors the match to the start of the string.
+- `$` : Anchors the match to the end of the string.
+- `*` : Matches zero or more occurrences of the preceding character.
+- `+` : Matches one or more occurrences of the preceding character.
+- `?` : Matches zero or one occurrence of the preceding character.
+- `[]` : Matches any single character within the brackets.
+- `|` : Acts like a logical OR, matches either the expression before or after the pipe.
+
+These special characters, along with various metacharacters, provide flexibility in defining search patterns.
+
+## Using Regular Expressions in Python
+
+Python's `re` module provides functions to work with regular expressions. Some commonly used functions include `re.search()`, `re.match()`, `re.findall()`, and `re.sub()`.
+
+### Example:
+
+Suppose we want to extract all the email addresses from a given text.
+
+```python
+import re
+
+text = "Sample text with email addresses user1@example.com and user2@test.com"
+pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+
+emails = re.findall(pattern, text)
+print(emails)
