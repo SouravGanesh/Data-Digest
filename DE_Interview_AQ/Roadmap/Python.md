@@ -22,10 +22,25 @@ Python provides access to command-line arguments through the `sys.argv` list or 
 
 - **Using sys.argv**:
   - `sys.argv`: Contains command-line arguments passed to the script. First argument is the script name.
+    ```python
+    import sys
+
+    script_name = sys.argv[0]
+    arguments = sys.argv[1:]  # Command-line arguments except the script name
+    ```
 
 - **Using argparse**:
   - `argparse.ArgumentParser`: Allows structured parsing of command-line arguments. Define arguments, types, help messages, etc.
-  - Example usage: `python script.py 10 --optional_arg value`
+    ```python
+    import argparse
 
-## Usage:
-- Clone this repository:
+    parser = argparse.ArgumentParser(description='Description of your script.')
+    parser.add_argument('arg1', type=int, help='Description of arg1')
+    parser.add_argument('--optional_arg', type=str, help='Description of optional_arg')
+    args = parser.parse_args()
+
+    # Accessing parsed arguments
+    arg1_value = args.arg1
+    optional_arg_value = args.optional_arg
+    ```
+  - Example usage: `python script.py 10 --optional_arg value`
