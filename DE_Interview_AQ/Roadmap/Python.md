@@ -142,3 +142,48 @@ In the above example:
 - `write()` is used to write data to the file.
 
 File handling allows programs to interact with external files, enabling data persistence, data exchange between programs, and storage of program configuration and state. It's an essential skill for any programmer dealing with data storage and manipulation.
+
+# Exception handling
+Exception handling in programming is a mechanism to deal with unexpected or exceptional situations that may occur during the execution of a program. These situations, often called exceptions, can arise due to various reasons such as invalid input, file not found, network errors, or division by zero. Exception handling allows the program to gracefully handle such errors, preventing the program from crashing and providing the opportunity to recover or handle the error appropriately.
+
+In Python, exception handling is done using the `try`, `except`, `else`, and `finally` blocks. Here's how they work:
+
+1. **try**: The code that might raise an exception is placed inside the `try` block.
+
+2. **except**: If an exception occurs inside the `try` block, the code inside the corresponding `except` block is executed. You can specify which type of exception you want to catch, or catch all exceptions by using `except Exception`.
+
+3. **else**: The code inside the `else` block is executed if no exceptions occur in the `try` block.
+
+4. **finally**: The code inside the `finally` block is always executed, regardless of whether an exception occurred or not. It is typically used for cleanup tasks like closing files or releasing resources.
+
+Here's an example demonstrating the use of exception handling in Python:
+
+```python
+try:
+    # Code that might raise an exception
+    x = int(input("Enter a number: "))
+    result = 10 / x
+    print("Result:", result)
+
+except ValueError:
+    print("Invalid input! Please enter a valid number.")
+    
+except ZeroDivisionError:
+    print("Error: Division by zero!")
+
+else:
+    print("No exceptions occurred.")
+
+finally:
+    print("Finally block executed. This code always runs.")
+
+print("Program continues...")
+```
+
+In the above example:
+- If the user enters a non-numeric value, a `ValueError` exception is raised and caught by the first `except` block.
+- If the user enters zero, a `ZeroDivisionError` exception is raised and caught by the second `except` block.
+- If the user enters a valid number and no exceptions occur, the `else` block is executed.
+- Regardless of whether an exception occurred or not, the `finally` block is executed.
+
+Exception handling helps make your code more robust and resilient to errors, improving the overall reliability of your software. It's essential to handle exceptions appropriately to provide a good user experience and prevent unexpected crashes.
