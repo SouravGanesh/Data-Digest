@@ -1,3 +1,61 @@
+# Functional programming
+Functional programming is a programming paradigm that emphasizes the use of functions as the primary building blocks of software. In functional programming, functions are treated as first-class citizens, meaning they can be passed around as arguments to other functions, returned as values from other functions, and assigned to variables.
+
+In Python, functional programming features are supported, allowing you to write code in a functional style. Here's an explanation of some key concepts and features:
+
+1. **Lambda Functions**: Lambda functions, also known as anonymous functions, are functions that are defined without a name. They are typically used for short, one-line functions where a full function definition is not necessary. Lambda functions are created using the `lambda` keyword.
+
+   Example:
+   ```python
+   # Lambda function to square a number
+   square = lambda x: x ** 2
+   print(square(5))  # Output: 25
+   ```
+
+2. **Map, Filter, and Reduce**: These are built-in higher-order functions in Python that are commonly used in functional programming.
+
+   - **Map**: The `map()` function applies a given function to each item of an iterable (e.g., a list) and returns a new iterable with the results.
+   
+     Example:
+     ```python
+     # Using map to double each number in a list
+     numbers = [1, 2, 3, 4, 5]
+     doubled = list(map(lambda x: x * 2, numbers))
+     print(doubled)  # Output: [2, 4, 6, 8, 10]
+     ```
+
+   - **Filter**: The `filter()` function constructs an iterator from elements of an iterable for which a function returns true.
+   
+     Example:
+     ```python
+     # Using filter to get even numbers from a list
+     numbers = [1, 2, 3, 4, 5]
+     evens = list(filter(lambda x: x % 2 == 0, numbers))
+     print(evens)  # Output: [2, 4]
+     ```
+
+   - **Reduce**: The `reduce()` function is used to apply a function of two arguments cumulatively to the items of an iterable, from left to right, to reduce the iterable to a single value.
+   
+     Example:
+     ```python
+     from functools import reduce
+     # Using reduce to calculate the sum of a list
+     numbers = [1, 2, 3, 4, 5]
+     total = reduce(lambda x, y: x + y, numbers)
+     print(total)  # Output: 15
+     ```
+
+3. **Comprehensions**: Comprehensions provide a concise way to create lists, dictionaries, and sets in Python.
+
+   Example:
+   ```python
+   # List comprehension to create a list of squares
+   squares = [x ** 2 for x in range(1, 6)]
+   print(squares)  # Output: [1, 4, 9, 16, 25]
+   ```
+
+Functional programming promotes code that is easier to understand, test, and maintain by focusing on pure functions, immutability, and avoiding side effects. By leveraging features like lambda functions, map, filter, reduce, and comprehensions, you can write more expressive and efficient code in Python.
+
 # Command Line Arguments in Python:
 
 Python provides access to command-line arguments through the `sys.argv` list or the `argparse` module for more complex argument parsing.
