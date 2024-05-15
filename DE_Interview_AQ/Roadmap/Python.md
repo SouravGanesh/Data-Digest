@@ -1,4 +1,4 @@
-## Command Line Arguments in Python:
+# Command Line Arguments in Python:
 
 Python provides access to command-line arguments through the `sys.argv` list or the `argparse` module for more complex argument parsing.
 
@@ -69,6 +69,7 @@ emails = re.findall(pattern, text)
 print(emails)
 ```
 
+# File handling
 File Input and Output, commonly referred to as file handling, is the process of reading data from and writing data to files on a computer's storage system. This is a fundamental aspect of programming, as it enables applications to store and retrieve data persistently.
 
 Here's a breakdown of the concepts involved:
